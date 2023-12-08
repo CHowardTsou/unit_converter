@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    width: 550px;
+    margin: 0px auto;
+    font-family: 'Inter', sans-serif;
 }
 
 .input-part {
@@ -16,17 +19,19 @@ h1 {
     margin-top: 33px;
     font-size: 25px;
     color: white;
+    font-weight: 800;
 }
 
 input {
     background: transparent;
     border: 2px solid #B295FF;
-    width: 80px;
+    width: 120px;
     height: 40px;
     margin-top: 20px;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
+    text-align: center;
     
 }
 
@@ -62,9 +67,11 @@ button {
 h2 {
     color: #CCC1FF;
     font-size: 18px;
+    font-weight: 600;
 }
 
 h3 {
     color: #ffffff;
     font-size: 13px;
+    font-weight: 400;
 }
